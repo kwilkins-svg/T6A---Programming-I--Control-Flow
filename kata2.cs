@@ -6,4 +6,24 @@ for (int i = 1; i <=20; i++)
     Console.WriteLine(i);
 }
 // Commit 2: "added fizzbuzz logic"
+for (int i = 1; i <= 20; i++)
+{
+    if (i % 3 == 0 && i % 5 == 0)
+    {
+        Console.WriteLine("FizzBuzz");
+    }
+    else if (i % 3 == 0)
+    {
+        Console.WriteLine("Fizz");
+    }
+    else if (i % 5 == 0)
+    {
+        Console.WriteLine("Buzz");
+    }
+    else
+    {
+        Console.WriteLine(i);
+    }
+}
+
 // Commit 3: "refactored with clear variable and comments"
